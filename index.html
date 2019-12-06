@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./node_modules/swiper/css/swiper.min.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div class="about__me">
+        <div class="photo">
+            <img src="./assets/my_photo.jpg" alt="">
+        </div>
+        <div class="name">
+            <h1>Matsvei Anisovich</h1>
+            <div class="links">
+                <ul>
+                    <li><a href="https://vk.com/artas0000" target="_blank">VK</a></li>
+                    <li><a href="https://github.com/artas0000" target="_blank">GitHub</a></li>
+                    <li>Telegram: artas0000</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class="about__education">
+        <div class="expansion__panel" id="expansion__button">
+            <h2>Education</h2>
+            <i class="fas fa-chevron-left" id="button"></i>
+        </div>
+
+        <div id="education">
+            <ul class="list_edu">
+                <li>
+                    <h2>Dzerzhinsk School №2</h2>
+                    <p>2006 - 2017</p>
+                </li>
+                <li>
+                    <h2>BNTU</h2>
+                    <p>2017 - 2021</p>
+                </li>
+                <li>
+                    <h2>RSSchool Courses</h2>
+                    <p>2019 - 2020</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="slider__project">
+        <h2>Projects</h2>
+
+    </div>
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="show_hide"><span id="span">Show</span> description</div>
+                <button class="description__button"></button>
+                <div class="description">
+                    <h3>
+                        Theyalow
+                    </h3>
+                    <ul>
+                        <li>Pixel perfect</li>
+                        <li>Grid</li>
+                        <li>Flex</li>
+                    </ul>
+                    <p class="swipe__to_see">Swipe to see other</p>
+                    <div class="tap__on_img">
+                        <p>Tap to image to see the project</p>
+                        <i class="fas fa-chevron-left" id="arrow"></i>
+                    </div>
+                </div>
+                <a class="project__preview theyalow" href="./projects/theyalow/index.html">
+                    <img src="./assets/theyalow.png" alt="">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <div class="show_hide"><span id="span">Show</span> description</div>
+                <button class="description__button"></button>
+                <div class="description">
+                    <h3>
+                        Repair-design-project
+                    </h3>
+                    <ul>
+                        <li>Flex</li>
+                        <li>Figma</li>
+                        <li>Sass</li>
+                        <li>WebPack</li>
+                    </ul>
+                    <p class="swipe__to_see">Swipe to see other</p>
+                    <div class="tap__on_img">
+                        <p>Tap to image to see the project</p>
+                        <i class="fas fa-chevron-left" id="arrow"></i>
+                    </div>
+                </div>
+                <a class="project__preview repair-design-project"
+                    href="./projects/repair-design-project/dist/index.html">
+                    <img src="./assets/repair-design-project.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/5a0df4d713.js" crossorigin="anonymous"></script>
+    <script src="./node_modules/swiper/js/swiper.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

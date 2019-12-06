@@ -1,0 +1,43 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#back_button {
+    position: fixed;
+    z-index: 100;
+    top: 70px;
+    left: 15px;
+    width: 150px;
+    height: 40px;
+    border: solid 1.5px white;
+    border-radius: 20%;
+    background: rgba(105, 105, 105, 0.4);
+}
+
+#desktop {
+    position: fixed;
+    z-index: 100;
+    top: 70px;
+    right: 15px;
+    width: 150px;
+    height: 40px;
+    border: solid 1.5px white;
+    border-radius: 20%;
+    background: rgba(105, 105, 105, 0.4);
+}
+
+iframe {
+    margin: 0 auto;
+    background: white;
+}

@@ -1,0 +1,31 @@
+#back {
+    position: fixed;
+    z-index: 100;
+    top: 70px;
+    left: 15px;
+    width: 150px;
+    height: 40px;
+    border: solid 1.5px white;
+    border-radius: 20%;
+    background: rgba(105, 105, 105, 0.4);
+}
+
+#mobile {
+    position: fixed;
+    z-index: 100;
+    top: 70px;
+    right: 15px;
+    width: 150px;
+    height: 40px;
+    border: solid 1.5px white;
+    border-radius: 20%;
+    background: rgba(105, 105, 105, 0.4);
+}
+
+@media (max-width: 376px) {
+
+    #mobile,
+    #back {
+        display: none;
+    }
+}
